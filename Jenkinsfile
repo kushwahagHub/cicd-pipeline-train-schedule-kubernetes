@@ -4,9 +4,8 @@ pipeline {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "kushwahag/hello-consumer-microservice-4"
     }
-    /*
     stages {
-        stage('Build') {
+     /*   stage('Build') {
             steps {
                 echo 'Running build automation'
                 sh './gradlew build --no-daemon'
